@@ -48,14 +48,13 @@ a{
     flex-direction: column;
     gap:10px;
     align-items:center;
-    width:370px;
+    width:400px;
     text-align: center;
-
 }
 
 div img{
-    width:350px;
-    height:500px;
+    width:400px;
+    height:450px;
     border-radius: 15px;
 }
 
@@ -67,22 +66,80 @@ div img{
 }
 
 /* css for recipe pages */
-.left{
-    
-    display: flex;
+
+.recipes-heading{
+    text-align:center;
+    font-size: 40px; 
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.recipes-img{
+    display:flex;
+    justify-content: center;
+}
+
+.description{
+    display:flex;
     flex-direction: column;
-    gap:20px;
-    padding-left: 30px;
-    width:420px;
-    height: 1507px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.description p,ul{
+    margin:0em;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;  
+}
+
+.left-right-container{
+    gap:40px;
+    display: flex;
 }
 
 .left{
-    
     display: flex;
     flex-direction: column;
     gap:20px;
-    padding-left: 30px;
-    width:420px;
-    height: 1507px;
+    padding-left:70px;
+    padding-top: 20xp;
+    width:400px;
+    height: 400px;
+}
+
+.ingredients-container{
+    border-radius: 10px;
+    background-color: rgb(240, 236, 230);
+    padding:20px;
+    flex-grow: 3;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-left:25px;
+    padding-top: 20xp;
+    width:750px;
+    height: 400px;
+}
+
+.instructions-container{
+    border-radius: 10px;
+    background-color: rgb(240, 236, 230);
+    padding:20px;
+    height: 400px;
+}
+
+.notes-facts{
+     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
 }
